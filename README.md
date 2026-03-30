@@ -1,5 +1,5 @@
 
-# 6G-LEADER Cross-Layer Dataset for Drone-Assisted Edge Applications 2026 version 2(6GL-CLD26_v2)
+# 6G-LEADER Cross-Layer Dataset 2026 version 2(6GL-CLD26_v2)
 
 ## Overview
 
