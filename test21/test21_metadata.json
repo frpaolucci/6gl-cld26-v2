@@ -1,0 +1,96 @@
+{
+  "mission_id": "test21",
+  "test_name": "test21",
+  "test_case": {
+    "id": 1,
+    "title": "Application Traffic",
+    "option": "M",
+    "goal": "Evaluate RAN+drone performance metrics as different applications and rate are exchanged with/without congestion"
+  },
+  "active_conditions": {
+    "traffic": [
+      "iperf unlimited bidir",
+      "UL high-quality video stream"
+    ],
+    "trajectory": [],
+    "tx_power": [
+      "Low TX = -90"
+    ],
+    "mobility": [],
+    "los": []
+  },
+  "traffic_profile": {
+    "synthetic": {
+      "enabled": true,
+      "tool": "iperf3",
+      "protocol": null,
+      "direction": "bidir",
+      "target_rate": "unlimited"
+    },
+    "video": {
+      "enabled": true,
+      "direction": "UL",
+      "quality": "high"
+    },
+    "mixed": true
+  },
+  "trajectory_profile": {
+    "nominal_path": "mission-defined waypoints",
+    "right_offset_cm": null,
+    "left_offset_cm": null,
+    "left_offset_multiplier": null
+  },
+  "radio_profile": {
+    "tx_power_label": "Low TX = -90",
+    "p0_nominal_with_grant": -90
+  },
+  "mobility_profile": {
+    "stop_pattern": null,
+    "hover_events_present": false
+  },
+  "propagation_profile": {
+    "condition": "LOS",
+    "obstacle": null
+  },
+  "experiment_timing": {
+    "duration_s": null,
+    "duration_range_s": [
+      90,
+      120
+    ],
+    "time_reference": "unix_time_us",
+    "time_sync": "NTP"
+  },
+  "environment": {
+    "setup": "indoor",
+    "drone_count": 1,
+    "positioning_system": "VICON",
+    "vicon_rate_hz": 60,
+    "ran_rate_hz": 1,
+    "app_rate_hz": "variable",
+    "base_station_position": {
+      "x_m": null,
+      "y_m": null,
+      "z_m": null,
+      "notes": "to be provided"
+    }
+  },
+  "files": {
+    "mission_log": "drone/6GLeader_mission_10_20260319_165435.log",
+    "drone_setpoint": "drone/log_2026-3-19-16-56-16_setpont.csv",
+    "drone_action": "drone/log_2026-3-19-16-56-16_action.csv",
+    "drone_pose": "drone/log_2026-3-19-16-56-16_pose.csv",
+    "drone_attitude": "drone/log_2026-3-19-16-56-16_attitude.csv",
+    "drone_battery": "drone/log_2026-3-19-16-56-16_battery.csv",
+    "ran": "test21_ran_ue_ds.csv",
+    "iperf": "test21_tcp_unl.csv",
+    "video_timeseries": "test21_receiver_high_udp_nodfrit_90_iperftcp.csv",
+    "video_summary": "test21_receiver_high_udp_nodfrit_90_iperftcp.json"
+  },
+  "notes": null,
+  "source": {
+    "generated_from": "tests_metadata.xlsx",
+    "sheet": "TC options",
+    "row_index": 14
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "start_time": 1773934882.1898263,
+  "frames_received": 2970,
+  "bytes_received": 25158749,
+  "packets_lost": 0,
+  "protocol": "udp",
+  "port": 5000,
+  "start_time_iso": "2026-03-19T16:41:22.189834",
+  "duration": 99.57989716529846,
+  "end_time": "2026-03-19T16:43:01.769724",
+  "avg_bitrate_bps": 2021191.0006886253,
+  "avg_bitrate_mbps": 2.021191000688625,
+  "avg_fps": 29.82529691780987,
+  "packet_loss_rate": 0.0
+}

@@ -1,0 +1,97 @@
+{
+  "mission_id": "test2",
+  "test_name": "test2",
+  "test_case": {
+    "id": 2,
+    "title": "Drone Trajectory",
+    "option": "C",
+    "goal": "Evaluate RAN+drone performance metrics as a function of the different trajectory followed by the drone flying mission"
+  },
+  "active_conditions": {
+    "traffic": [
+      "iperf 20M bidir"
+    ],
+    "trajectory": [
+      "left offset 20cm"
+    ],
+    "tx_power": [
+      "Max TX = -76"
+    ],
+    "mobility": [],
+    "los": []
+  },
+  "traffic_profile": {
+    "synthetic": {
+      "enabled": true,
+      "tool": "iperf3",
+      "protocol": null,
+      "direction": "bidir",
+      "target_rate": "20M"
+    },
+    "video": {
+      "enabled": false,
+      "direction": null,
+      "quality": null
+    },
+    "mixed": false
+  },
+  "trajectory_profile": {
+    "nominal_path": "mission-defined waypoints",
+    "right_offset_cm": null,
+    "left_offset_cm": 20,
+    "left_offset_multiplier": null
+  },
+  "radio_profile": {
+    "tx_power_label": "Max TX = -76",
+    "p0_nominal_with_grant": -76
+  },
+  "mobility_profile": {
+    "stop_pattern": null,
+    "hover_events_present": false
+  },
+  "propagation_profile": {
+    "condition": "LOS",
+    "obstacle": null
+  },
+  "experiment_timing": {
+    "duration_s": null,
+    "duration_range_s": [
+      90,
+      120
+    ],
+    "time_reference": "unix_time_us",
+    "time_sync": "NTP"
+  },
+  "environment": {
+    "setup": "indoor",
+    "drone_count": 1,
+    "positioning_system": "VICON",
+    "vicon_rate_hz": 60,
+    "ran_rate_hz": 1,
+    "app_rate_hz": "variable",
+    "base_station_position": {
+      "x_m": null,
+      "y_m": null,
+      "z_m": null,
+      "notes": "to be provided"
+    }
+  },
+  "files": {
+    "mission_log": "drone/6GLeader_mission_1_20260130_164303.log",
+    "drone_setpoint": "drone/log_2026-1-30-16-43-03_setpont.csv",
+    "drone_action": "drone/log_2026-1-30-16-43-03_action.csv",
+    "drone_pose": "drone/log_2026-1-30-16-43-03_pose.csv",
+    "drone_attitude": "drone/log_2026-1-30-16-43-03_attitude.csv",
+    "drone_battery": "drone/log_2026-1-30-16-43-03_battery.csv",
+    "ran": "ran_ue_ds.csv",
+    "iperf": "tcp_20M.csv",
+    "video_timeseries": null,
+    "video_summary": null
+  },
+  "notes": null,
+  "source": {
+    "generated_from": "tests_metadata.xlsx",
+    "sheet": "TC options",
+    "row_index": 19
+  }
+}
