@@ -142,4 +142,6 @@ The dataset enables research on:
 ## License and Usage
 
 This dataset is intended for research and educational purposes.  
-Please cite the associated publication when using the dataset in academic work.
+Please cite the github repo and the associated publication when using the dataset in academic work:
+1) 6G-LEADER Cross-Layer Dataset 2026 version 2, https://github.com/frpaolucci/6gl-cld26-v2
+2) F. Paolucci, E. Paolini, M. Satler, M. Guaitolini, F. Cugini, A. Sgambelluri, "Cross-layer UAV Dataset for 6G AI-driven Analytics", in Proc. International Conference on Transparent Optical Networks (ICTON), Prague, Czech Republic, 2026.
