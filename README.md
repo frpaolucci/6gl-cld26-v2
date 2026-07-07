@@ -5,7 +5,9 @@
 
 This dataset, realized in the context of the SNS JU 6G-LEADER Project (https://6g-leader.eu/), contains cross-layer measurements collected during UAV flight missions connected to a 5G O-RAN network. The dataset includes synchronized data from UAV telemetry, Radio Access Network (RAN) measurements, and application-level traffic, enabling cross-layer analysis across mobility, radio, and application domains.
 
-The dataset was collected in the CNIT/SSSA ARNO Testbed premises in March/April 2026, in a controlled indoor environment using a single UAV connected to a disaggregated O-RAN 5G network operating in band n78 with 50 MHz bandwidth. The UAV executed multiple flight missions under different experimental conditions, including varying traffic loads, uplink power control settings, trajectories, and mobility patterns.The dataset is designed to support research on cross-layer performance analysis, Quality of Service (QoS), Quality of Experience (QoE), mobility-aware networking, uplink power control, network-based localization, and integrated communication and sensing for 5G and 6G systems.
+The dataset was collected in the CNIT/SSSA ARNO Testbed premises in March/April 2026, in a controlled indoor environment using a single UAV connected to a disaggregated O-RAN 5G network operating in band n78 with 50 MHz bandwidth. The UAV executed multiple flight missions under different experimental conditions, including varying traffic loads, uplink power control settings, trajectories, and mobility patterns. 
+
+The dataset is designed to support research on cross-layer performance analysis, Quality of Service (QoS), Quality of Experience (QoE), mobility-aware networking, uplink power control, network-based localization, and integrated communication and sensing for 5G and 6G systems.
 
 ---
 
