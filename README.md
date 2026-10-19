@@ -141,6 +141,9 @@ The dataset enables research on:
 
 ## License and Usage
 
+This dataset is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license.
+You are free to use, share, redistribute, modify, and build upon this dataset, including for research, educational, and commercial purposes, provided that appropriate credit is given to the original authors.
+When reusing or adapting the dataset, please cite the original publication, provide a link to the license, and indicate whether changes were made.
 This dataset is intended for research and educational purposes.  
 Please cite the github repo and the associated publication when using the dataset in academic work:
 1) 6G-LEADER Cross-Layer Dataset 2026 version 2, https://github.com/frpaolucci/6gl-cld26-v2
